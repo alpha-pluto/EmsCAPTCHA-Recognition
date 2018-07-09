@@ -10,7 +10,7 @@ EMS验证码识别
             var captcha = "unknow";
             for (var i = 0; i < 10; i++)
             {
-                var iconPath = AppDomain.CurrentDomain.BaseDirectory + $"ems-captcha-{i}.png";
+                var iconPath =$"{AppDomain.CurrentDomain.BaseDirectory}ems-captcha-{i}.png";
                 using (Stream fileStream = GoGetStream())
                 {
                     System.Drawing.Bitmap image = new System.Drawing.Bitmap(fileStream);
