@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+ * 程序编写日期:2015-09
+ * 整理：2018-07-10
+ * daniel.zhang
+ * 图片处理核心
+ * 去色，降噪，切割，转换点阵
+ * 
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
