@@ -1,5 +1,6 @@
 # EmsCAPTCHA-Recognition
 EMS验证码识别
+Creating a new branch is quick AND simple.
 使用了简单的相似度算法来作比较，并对比较的结果作了一点的优化
 调用方式参考如下：
 
